@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mv-container {
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-01 {
+    background: #03d29f;
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.9);
+}
+.title-01 {
+    margin: 10px;
+}
+.sub-01 {
+    margin: 0 30px;
+}
+@media (max-width:800px) {
+    .card-01 {
+        flex: 100%;
+        max-width: 600px;
+        max-height: 100%;
+    }
+}
